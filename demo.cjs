@@ -1,4 +1,4 @@
-import * as pen from './index.js'
+const pen = require( '.' )
 
 console.log( pen.blue( `Hello, ${ pen.bold( 'World' ) }!!!` ) )
 
