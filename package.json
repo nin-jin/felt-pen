@@ -1,0 +1,15 @@
+{
+  "name": "felt-pen",
+  "version": "1.0.0",
+  "description": "Tiny ANSI terminal coloring library",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./demo.js",
+    "bench": "node ./bench.js"
+  },
+  "repository": "http://github.com/nin-jin/felt-pen",
+  "author": "http://github.com/nin-jin",
+  "license": "MIT",
+  "private": false
+}
