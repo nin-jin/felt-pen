@@ -8,6 +8,8 @@ Tiny ANSI terminal coloring library
 yarn add felt-pen
 ```
 
+![](https://badgen.net/bundlephobia/minzip/felt-pen)
+
 ## Usage
 
 ```js
