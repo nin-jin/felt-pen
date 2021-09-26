@@ -56,4 +56,4 @@ import * as pen from 'felt-pen'
 console.log( pen.blue( `Hello, ${pen.bold( 'World' )}!!!` ) )
 ```
 
-See [the demo](./demo.js) for all supported ansi attributes.
+See the demo ([mjs](./demo.mjs), [cjs](./demo.mjs)) for all supported ansi attributes.

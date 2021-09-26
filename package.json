@@ -1,6 +1,6 @@
 {
   "name": "felt-pen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tiny ANSI terminal coloring library",
   "type": "module",
   "main": "index.cjs",
