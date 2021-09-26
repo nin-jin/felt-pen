@@ -1,0 +1,32 @@
+name: Test
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+  schedule:
+  - cron: "0 7 * * *"
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version:
+          - 16
+          - 15
+          - 14
+          - 13
+          - 12
+          - 11
+          - 10
+          - 9
+          - 8
+    name: NodeJS ${{ matrix.node-version }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - uses: bahmutov/npm-install@v1
+      - run: yarn test
