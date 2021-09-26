@@ -1,4 +1,4 @@
-import * as pen from '.'
+import * as pen from './index.mjs'
 
 console.log( pen.blue( `Hello, ${ pen.bold( 'World' ) }!!!` ) )
 

@@ -18,10 +18,6 @@ jobs:
           - 14
           - 13
           - 12
-          - 11
-          - 10
-          - 9
-          - 8
     name: NodeJS ${{ matrix.node-version }}
     steps:
       - uses: actions/checkout@v2
