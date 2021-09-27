@@ -1,26 +1,28 @@
 const pen = require( '.' )
 
-console.log( pen.blue( `Hello, ${ pen.bold( 'World' ) }!!!` ) )
+console.log( pen.blue( `[Hello, ${ pen.bold( 'World' ) }!]` ) )
 
-console.log( pen.reset( 'reset' ) )
-console.log( pen.bold( 'bold' ) )
-console.log( pen.italic( 'italic' ) )
-console.log( pen.underline( 'underline' ) )
-console.log( pen.inverse( 'inverse' ) )
-console.log( 'hidden[', pen.hidden( 'hidden' ), ']' )
-console.log( pen.strikethrough( 'strikethrough' ) )
-console.log( pen.gray( 'gray' ) )
-console.log( pen.red( 'red' ) )
-console.log( pen.green( 'green' ) )
-console.log( pen.yellow( 'yellow' ) )
-console.log( pen.blue( 'blue' ) )
-console.log( pen.magenta( 'magenta' ) )
-console.log( pen.cyan( 'cyan' ) )
-console.log( pen.white( 'white' ) )
-console.log( pen.bgRed( 'bgRed' ) )
-console.log( pen.bgGreen( 'bgGreen' ) )
-console.log( pen.bgYellow( 'bgYellow' ) )
-console.log( pen.bgBlue( 'bgBlue' ) )
-console.log( pen.bgMagenta( 'bgMagenta' ) )
-console.log( pen.bgCyan( 'bgCyan' ) )
-console.log( pen.bgWhite( 'bgWhite' ) )
+console.log(
+	pen.reset( 'reset' ),
+	pen.bold( 'bold' ),
+	pen.italic( 'italic' ),
+	pen.underline( 'underline' ),
+	pen.inverse( 'inverse' ),
+	'hidden[', pen.hidden( 'hidden' ), ']',
+	pen.strike( 'strike' ),
+	pen.gray( 'gray' ),
+	pen.red( 'red' ),
+	pen.green( 'green' ),
+	pen.yellow( 'yellow' ),
+	pen.blue( 'blue' ),
+	pen.magenta( 'magenta' ),
+	pen.cyan( 'cyan' ),
+	pen.white( 'white' ),
+	pen.Red( 'Red' ),
+	pen.Green( 'Green' ),
+	pen.Yellow( 'Yellow' ),
+	pen.Blue( 'Blue' ),
+	pen.Magenta( 'Magenta' ),
+	pen.Cyan( 'Cyan' ),
+	pen.White( 'White' ),
+)
