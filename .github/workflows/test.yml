@@ -20,7 +20,6 @@ jobs:
           - 12
     name: NodeJS ${{ matrix.node-version }}
     steps:
-      - uses: Yuri6037/Action-FakeTTY@v1
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
@@ -28,4 +27,5 @@ jobs:
       - uses: bahmutov/npm-install@v1
         with:
           useLockFile: false
-      - run: yarn test
+      - shell: 'script -q -e -c "bash {0}"'
+        run: yarn test
