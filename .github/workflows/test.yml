@@ -27,4 +27,5 @@ jobs:
       - uses: bahmutov/npm-install@v1
         with:
           useLockFile: false
-      - run: yarn test
+      - shell: script -e -c {0}
+        run: yarn test
