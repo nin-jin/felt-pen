@@ -64,7 +64,7 @@ See the demo ([mjs](./demo.mjs), [cjs](./demo.mjs)) for all supported ansi attri
 
 ## Github Actions
 
-[GitHub have broken TTY](https://github.com/actions/runner/issues/241). As workaround, [set default shell](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#defaultsrun) in your workflow or [job](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_iddefaultsrun) or [run](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepsrun) as in example:
+[GitHub have broken TTY](https://github.com/actions/runner/issues/241). As workaround, set default shell in your [workflow](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#defaultsrun) or [job](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_iddefaultsrun) or [run](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepsrun) as in example:
 
 ```yaml
 defaults:
