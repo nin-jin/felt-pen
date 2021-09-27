@@ -69,5 +69,5 @@ See the demo ([mjs](./demo.mjs), [cjs](./demo.mjs)) for all supported ansi attri
 ```yaml
 defaults:
   run:
-    shell: 'script -q -e -c "bash {0}"'
+    shell: 'script -q -e -c "bash --noprofile --norc -eo pipefail {0}"'
 ```
