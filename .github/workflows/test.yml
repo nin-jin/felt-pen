@@ -7,6 +7,10 @@ on:
   schedule:
   - cron: "0 7 * * *"
 
+defaults:
+  run:
+    shell: 'script -q -e -c "bash {0}"'
+
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -27,5 +31,4 @@ jobs:
       - uses: bahmutov/npm-install@v1
         with:
           useLockFile: false
-      - shell: 'script -q -e -c "bash {0}"'
-        run: yarn test
+      - run: yarn test
