@@ -38,6 +38,7 @@ export const blue = ansi( 94, 39 )
 export const magenta = ansi( 95, 39 )
 export const cyan = ansi( 96, 39 )
 
+export const Gray = str => inverse( gray( str ) )
 export const Red = str => inverse( red( str ) )
 export const Green = str => inverse( green( str ) )
 export const Yellow = str => inverse( yellow( str ) )

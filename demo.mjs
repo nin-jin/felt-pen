@@ -17,6 +17,7 @@ console.log(
 	pen.blue( 'blue' ),
 	pen.magenta( 'magenta' ),
 	pen.cyan( 'cyan' ),
+	pen.Gray( ' Gray ' ),
 	pen.Red( ' Red ' ),
 	pen.Green( ' Green ' ),
 	pen.Yellow( ' Yellow ' ),

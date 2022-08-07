@@ -38,6 +38,7 @@ exports.blue = exports.ansi( 94, 39 )
 exports.magenta = exports.ansi( 95, 39 )
 exports.cyan = exports.ansi( 96, 39 )
 
+exports.Gray = str => exports.inverse( exports.gray( str ) )
 exports.Red = str => exports.inverse( exports.red( str ) )
 exports.Green = str => exports.inverse( exports.green( str ) )
 exports.Yellow = str => exports.inverse( exports.yellow( str ) )
