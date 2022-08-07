@@ -2,7 +2,7 @@
 
 Tiny ANSI terminal coloring library
 
-![](https://i.imgur.com/s2mcBTO.png)
+![](https://i.imgur.com/Q2lbRPb.png)
 
 ## [Benchmarks](https://github.com/ai/nanocolors#benchmarks)
 
